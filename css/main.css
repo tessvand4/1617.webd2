@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
 html, body {
   margin: 0;
   padding: 0;
@@ -78,24 +74,24 @@ html, body {
 #button3:active{
   transform: translateY(4px);
   }
-  p{
-    font-family: "Raleway", thin, sans-serif;
+p{
+  font-family: "Raleway", thin, sans-serif;
   }
-  .tussentitels{
-    font-family: "Raleway", thin, sans-serif;
-    text-indent: 50px;
-    font-weight: bold;
-    font-size: 200%;
-    margin-left: 20px;
+.tussentitels{
+  font-family: "Raleway", thin, sans-serif;
+  text-indent: 50px;
+  font-weight: bold;
+  font-size: 200%;
+  margin-left: 20px;
   }
-  input[type=text] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  }
 input[type=text]:focus {
-    border: 3px solid #3c8399;
+  border: 3px solid #3c8399;
 }
 form{
   font-family: "Raleway", thin, sans-serif;
@@ -108,19 +104,19 @@ form{
   font-family: "Raleway", thin, sans-serif;
   padding: 15px;
 }
-a.company_logo {
-  display:block; /* eerst van de a een block-element maken */
+.company_logo { /* eerst van de a een block-element maken */
   width: 50px;
   height:69px;
   float: left;
   /* background*/
   background-image: url(../img/logo-02.png);
   background-repeat: no-repeat;
-  background-position: 0 0;
   background-size: 55% auto;
   /* magic: tekst laten verdwijnen, door deze naar links op te schuiven */
-  overflow:hidden;
+  overflow: hidden;
   text-indent:-900px;
+  margin-left: 20px;
+  
 }
 .styleguide{
   background-color: none;
@@ -129,11 +125,6 @@ a.company_logo {
   float: left;
   width: 100%;
   margin-left: 420px;
-}
-h1{
-  font-family: "Raleway", thin, sans-serif;
-  float: left;
-  text-align: center;
 }
 .quote{
   margin-left: 390px;
