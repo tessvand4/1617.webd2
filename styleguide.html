@@ -48,31 +48,38 @@
     <link rel="stylesheet" media="all" href="css/fonts.css">
     <link rel="stylesheet" media="all" href="css/typography.css">
     <link rel="stylesheet" media="all" href="css/main.css">
+    <link rel="stylesheet" media="all" href="css/nav.css">
+    <link rel="stylesheet" media="all" href="css/global.css">
+    <link rel="stylesheet" media="all" href="css/helpers.css">
     <!-- Modernizr: feature detection -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
   </head>
 
   <body>
+    <div>
+      
+  </div>
     <!-- header navigatie-->
     <div id="main-navigation-wrapper">
         <div class="container">
             <div class="row">
                 <nav class="main-navigation">
+                  <h1><a href="#" role="btn" class="company_logo">Arteveldehogeschool</a></h1> 
                     <ul class="clearfix">
                         <li>
                             <a href="#" title="Home">Home</a>
                         </li>
                         <li class="active">
-                            <a href="#" title="Onze Diensten">Onze Diensten</a>
+                            <a href="#" title="Onze Diensten" class="titelnav">Onze Diensten</a>
                         </li>
                         <li>
-                            <a href="#" title="Portfolio">Portfolio</a>
+                            <a href="#" title="Portfolio" class="titelnav">Portfolio</a>
                         </li>
                         <li>
-                            <a href="#" title="Over Ons">Over Ons</a>
+                            <a href="#" title="Over Ons" class="titelnav">Over Ons</a>
                         </li>
                         <li>
-                            <a href="#" title="Contact">Contact</a>
+                            <a href="#" title="Contact" class="titelnav">Contact</a>
                         </li>
                     </ul>
                 </nav>
@@ -84,38 +91,89 @@
       <div class="grid__container">
         <div class="grid__row">
           <div class="grid__column-3">
-            kolom 1
+          <img src="img/logo-02.PNG" alt="logo" width="80%">
           </div>
           <div class="grid__column-3">
-            kolom 2
+            <img src="img/kleuren.PNG" alt="kleuren" width="100%">
+            <p>#8DBDCC, #3D8399, #F28F8B, #CC8D9F, #CEE7E2</p>
           </div>
           <div class="grid__column-3">
-            kolom 3
+            <button type="button" id="button">Onze Realisaties</button>
+            <button type="button" id="button2">Sociale media</button>
+            <button type="button" id="button3">verzenden</button>
           </div>
           <div class="grid__column-3">
-            kolom 4
+            <p>“Van Duysen Designs” bestaat sinds 2014 en is opgericht met één doel: De grafische en digitale media een betere en professionele look te geven.
+Ons team bestaat uit 3 leden die altijd klaar staan om jou te helpen.<br>
+We streven ernaar om jou idee optimaal uit te werken, en we zijn gedreven om precies en efficiënt te werk te gaan.
+Ons team is dan ook zo samengesteld dat iedereen zijn beste talenten kan inzetten zodat uw eindresultaat er fantastisch uitziet.
+</p>
           </div>
         </div>
       </div>
     </div>
-   
-
+    <p class="tussentitels">Pictogrammen</p>
+     <div class="grid__wrapper">
+      <div class="grid__container">
+        <div class="grid__row">
+          <div class="grid__column-3">
+          <img src="img/zon-03.PNG" alt="zon" width="80%">
+          </div>
+          <div class="grid__column-3">
+            <img src="img/printer-04.PNG" alt="printer" width="80%">
+          </div>
+          <div class="grid__column-3">
+            <img src="img/pijl-05.PNG" alt="pijl" width="80%">
+          </div>
+          <div class="grid__column-3">
+            <img src="img/huis-06.PNG" alt="huis" width="80%">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- nieuwe rij -->
+    <div class="grid__wrapper">
+      <div class="grid__container">
+        <div class="grid__row">
+          <div class="grid__column-3">
+            <form>
+            Naam<br>
+            <input type="text" name="naam"><br>
+            Telefoonnummer<br>
+            <input type="text" name="telefoonnummer"><br>
+            E-mail adres<br>
+            <input type="text" name="e-mail adres"><br>
+            Bericht<br>
+            <input type="text" name="bericht"><br>
+            <input type="submit" value="verzenden" id="button">
+            </form>
+          </div>
+          <div class="grid__column-3">
+            
+          </div>
+          <div class="grid__column-3">
+            
+          </div>
+          <div class="grid__column-3">
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- footer-->
 <div class="grid__wrapper footer-wrapper">
 	<div class="grid__container">
 		<div class="grid__row">
 			<div class="grid__column-12">
 				<footer class="footer">
-					<h1 class="hidden">Main Footer Website</h1>
-					<div class="grid__row">
+					<div class="grid__row" "footer">
 						<div class="grid__column-4">
-							Copyright
+							Van Duysen Designs © 2017
 						</div>
 						<div class="grid__column-4">
-							...
+							<p id="disclaimer">Deze website is gemaakt naar aanleiding van een schoolopdracht voor webdesign, alles wat hier op staat is dus fictief en elke overeenkomst met de realiteit is louter toeval.</p>
 						</div>
 						<div class="grid__column-4">
-							Developed by....
+							Developed by Van Duysen Tess
 						</div>
 					</div>
 				</footer>
