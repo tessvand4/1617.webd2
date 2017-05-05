@@ -5,7 +5,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #caffee;
+  background-color: #e0fff5;
 }
 #button{
   background-color: #8dbdcc;
@@ -121,4 +121,21 @@ a.company_logo {
   /* magic: tekst laten verdwijnen, door deze naar links op te schuiven */
   overflow:hidden;
   text-indent:-900px;
+}
+.styleguide{
+  background-color: none;
+}
+.foto{
+  float: left;
+  width: 100%;
+  margin-left: 420px;
+}
+h1{
+  font-family: "Raleway", thin, sans-serif;
+  float: left;
+  text-align: center;
+}
+.quote{
+  margin-left: 390px;
+  float: left;
 }
