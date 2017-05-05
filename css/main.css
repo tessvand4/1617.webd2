@@ -86,6 +86,7 @@ html, body {
     text-indent: 50px;
     font-weight: bold;
     font-size: 200%;
+    margin-left: 20px;
   }
   input[type=text] {
     width: 100%;
@@ -109,8 +110,9 @@ form{
 }
 a.company_logo {
   display:block; /* eerst van de a een block-element maken */
-  width: 150px;
-  height:100px;
+  width: 50px;
+  height:69px;
+  float: left;
   /* background*/
   background-image: url(../img/logo-02.png);
   background-repeat: no-repeat;
