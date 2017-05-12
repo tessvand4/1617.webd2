@@ -125,6 +125,7 @@ form{
   float: left;
   width: 100%;
   margin-left: 420px;
+  align-self: center;
 }
 .quote{
   margin-left: 390px;
