@@ -1,15 +1,15 @@
-ul{
+.main-navigation ul{
     margin-top:0px;
     float: none;
     list-style: none;
 }
-li{
+.main-navigation li{
 display: inline;
 margin: 0 10px 0 0;
 color:#CEE7E2;
 float: left;
 }
-a{
+.main-navigation a{
     display:block;
     padding:8px;
     padding-left: 100px;
