@@ -106,6 +106,7 @@ form{
   bottom: 0;
   width: 100%;
   margin-top: 70px;
+  color: black;
 }
 .company_logo { /* eerst van de a een block-element maken */
   width: 50px;
@@ -164,6 +165,7 @@ h1{
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  font-family: "Roboto";
 }
 .foto_diensten {
   width: 200px;
@@ -231,4 +233,14 @@ background-position: center;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+.foto_portfolio{
+}
+.styleguide{
+  text-decoration: none;
+  font-family: "Roboto";
+  color: black;
+}
+.styleguide:active{
+  color: black;
 }
