@@ -38,7 +38,7 @@ html, body {
   font-family: "Roboto";
   border-radius: 4px;
   transition-duration: 0.4s;
-  margin-left: 70px;
+  margin-left: 170px;
   margin-top: 30px;
 }
 #button2:hover{
@@ -92,10 +92,6 @@ input[type=text] {
   }
 input[type=text]:focus {
   border: 3px solid #3c8399;
-}
-form{
-  font-family: "Raleway", thin, sans-serif;
-  margin-bottom: 20px;
 }
 .footer{
   background-color: #3c8399;
@@ -234,8 +230,6 @@ background-position: center;
   margin-right: auto;
   text-align: center;
 }
-.foto_portfolio{
-}
 .styleguide{
   text-decoration: none;
   font-family: "Roboto";
@@ -243,4 +237,65 @@ background-position: center;
 }
 .styleguide:active{
   color: black;
+}
+form{
+  width: 500px;
+  margin-left:auto;
+  margin-right:auto;
+}
+textarea[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  }
+textarea[type=text]:focus {
+  border: 3px solid #3c8399;
+  }
+  .buttonport1{
+    margin-left: 290px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .buttonport2{
+    margin-left: 280px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .buttonport3{
+    margin-left: 278px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align:center;
+  }
+  .buttonport4{
+    margin-left: 270px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align:center;
+  }
+  .foto_diensteny {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 20px;
+}
+.foto_diensteny:hover, .foto_diensteny:focus, .foto_diensteny:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
