@@ -7,10 +7,8 @@
 display: inline;
 margin: 0 10px 0 0;
 color:#CEE7E2;
-float: left;
 }
 .main-navigation a{
-    display:block;
     padding:8px;
     padding-left: 100px;
     text-decoration: none;
@@ -19,4 +17,15 @@ float: left;
 }
 nav{
     width: 100%;
+}
+nav a{
+    margin: none;
+    padding: none;
+}
+nav a:hover{
+  background-color: #ff918a;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+nav a:active{
+  transform: translateY(4px);
 }

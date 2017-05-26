@@ -207,7 +207,7 @@ background-position: center;
   font-family: "Roboto";
 }
 .foto_dienstenx {
-  display: inline-block;
+  
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
@@ -228,14 +228,6 @@ background-position: center;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-}
-.styleguide{
-  text-decoration: none;
-  font-family: "Roboto";
-  color: black;
-}
-.styleguide:active{
-  color: black;
 }
 form{
   width: 500px;
@@ -355,7 +347,7 @@ textarea[type=text]:focus {
 #buttonport4:active{
   transform: translateY(4px);
   }
-  .foto_diensteny {
+.foto_diensteny {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -421,4 +413,26 @@ table a:hover{
 }
 table a:active{
   transform: translateY(4px);
+}
+footer a{
+  text-decoration: none;
+  color: black;
+}
+footer a:hover{
+  background-color: #cc8d9f;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+footer a:active{
+  transform: translateY(4px);
+}
+nav a:hover{
+  background-color: #ff918a;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+nav a:active{
+  transform: translateY(4px);
+}
+nav a{
+ margin: none;
+ padding: none;
 }
