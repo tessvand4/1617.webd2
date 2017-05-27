@@ -96,7 +96,6 @@ input[type=text]:focus {
 .footer{
   background-color: #3c8399;
   font-size: 70%;
-  
   font-family: "Raleway", thin, sans-serif;
   padding: 15px;
   bottom: 0;
@@ -109,7 +108,7 @@ input[type=text]:focus {
   height:69px;
   float: left;
   /* background*/
-  background-image: url(../img/logo-02.png);
+  background-image: url(../assets/images/logo-02.png);
   background-repeat: no-repeat;
   background-size: 55% auto;
   /* magic: tekst laten verdwijnen, door deze naar links op te schuiven */
