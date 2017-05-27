@@ -442,7 +442,6 @@ footer a:active{
 }
 .hovertekst:hover .quote{
   visibility: visible;
-  
 } 
 h3{
   margin-left: 70px;
@@ -460,4 +459,49 @@ h3{
   font-size: 24pt;
   font-family: "Roboto";
   margin-left: 500px;
+}
+.fotokant1{
+  width: 150px;
+  margin-right: 250px;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.fotokant1:hover, .fotokant1:focus, .fotokant1:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.fotomidden{
+  width: 300px;
+  margin-right: 250px;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.fotomidden:hover, .fotomidden:focus, .fotomidden:active{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.fotokant2{
+  width: 150px;
+  margin-left: 0px;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.fotokant2:hover, .fotokant2:focus, .fotokant2:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
